@@ -1,0 +1,8 @@
+{
+	"name": "index",
+	"template": "default",
+    "title": "Main",
+	"scripts": "",
+	"styles": "h1 {color:green; padding: 0; margin: 0;}",
+    "body": "<h1>Miau <3</h1><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p><p>Diese Seite wurde mit Bootlace generiert.</p>"
+}
