@@ -12,33 +12,32 @@
     <section id="main">
         <h1>Bootlace</h1>
         <p>A blazing-fast static web page generator</p>
-        <p>Made by Bikossor</p>
+        <p style="margin-bottom: 1rem;">Made by <a href="https://github.com/Bikossor" target="_blank">Bikossor</a></p>
+        <div>
+            <a class="cta primary" href="#get-started">Get started</a>
+            <a class="cta" href="https://github.com/Bikossor/Bootlace" target="_blank">View on GitHub</a>
+        </div>
     </section>
     <section id="features">
         <h1>Features</h1>
         <ul>
-            <li>Blazing-fast</li>
-            <li>Small in size</li>
-            <li>Single executable</li>
+            <li>Blazing-fast: Written in C++; without any additional dependencies.</li>
+            <li>Lightweight</li>
             <li>Page-specific templates</li>
             <li><i>(Coming soon)</i> CSS and JavaScript Minifier</li>
             <li><i>(Coming soon)</i> Shared assets</li>
         </ul>
     </section>
-    <section>
-        <pre>
-            <h1>Folder structure</h1>
-            ˫ sites
-            ˫-- index.json
-            ˫-- foo.json
-
-            ˫ public
-            ˫-- index.html
-            ˫-- foo.html
-            
-            ˫ templates
-            ˫-- default.html
-        </pre>
+    <section id="usage">
+        <h1>Usage</h1>
+        <p>First you need to setup your workspace so Bootlace can do it's job.</p>
+        <code>
+            Bootlace.exe setup
+        </code>
+        <p>Then you can compile your files.</p>
+        <code>
+            Bootlace.exe tie
+        </code>
     </section>
 </body>
 </html>
